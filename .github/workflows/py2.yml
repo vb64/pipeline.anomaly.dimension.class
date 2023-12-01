@@ -23,7 +23,6 @@ jobs:
     - name: Build docker image
       run: |
         cd tests/docker
-        cp ../../requirements.txt requirements.txt
         cp ../../tests/requirements.txt tests.txt
         docker-compose build
 
