@@ -36,14 +36,11 @@ cd oeg.feature.class
 With Python 2
 ```bash
 make setup2 PYTHON_BIN=/path/to/python27/executable
+make tests2
 ```
 
 With Python 3
 ```bash
 make setup PYTHON_BIN=/path/to/python3/executable
-```
-
-Then
-```bash
 make tests
 ```
