@@ -1,4 +1,9 @@
 # Python class for pipeline anomaly dimension classification
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/vb64/pipeline.anomaly.dimension.class/pep257.yml?label=Pep257&style=plastic&branch=main)](https://github.com/vb64/pipeline.anomaly.dimension.class/actions?query=workflow%3Apep257)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/vb64/pipeline.anomaly.dimension.class/py2.yml?label=Python%202.7&style=plastic&branch=main)](https://github.com/vb64/pipeline.anomaly.dimension.class/actions?query=workflow%3Apy2)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/vb64/pipeline.anomaly.dimension.class/py3.yml?label=Python%203.7-3.11&style=plastic&branch=main)](https://github.com/vb64/pipeline.anomaly.dimension.class/actions?query=workflow%3Apy3)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/0fc99b84d0434a22b687bfdc1dd4281b)](https://app.codacy.com/gh/vb64/pipeline.anomaly.dimension.class/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/0fc99b84d0434a22b687bfdc1dd4281b)](https://app.codacy.com/gh/vb64/pipeline.anomaly.dimension.class/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage)
 
 This Python module implements the definition of the "defect dimension class" of a pipeline according to [Specifications and requirements for intelligent pig inspection of pipelines](https://www.researchgate.net/figure/a-Graphical-presentation-of-surface-dimensions-of-metal-loss-anomalies-per-dimension_fig1_370191037).
 
