@@ -1,4 +1,4 @@
-"""According https://www.researchgate.net/figure/a-Graphical-presentation-of-surface-dimensions-of-metal-loss-anomalies-per-dimension_fig1_370191037"""
+"""Pipeline anomaly dimension classification."""
 
 
 class Error(Exception):
@@ -22,10 +22,7 @@ def size_class(length, width, thick):
     if not all([width, length, thick]):
         raise Error("Wrong FeatureClass params. l={} w={} t={}".format(length, width, thick))
 
-    size1 = thick
-    if size1 < 10:
-        size1 = 10
-
+    size1 = max(thick, 10)
     size3 = 3 * size1
     size6 = 6 * size1
     lwr = float(length) / float(width)
