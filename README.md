@@ -17,7 +17,7 @@ pip install pipeline-anomaly-dimension-class
 ```python
 from pipeline_anomaly_dimension_class import size_class, FeatureClass
 
-# a defect measuring 100x100 mm on a pipe wall 10 mm thick is a defect of the “GENE” class
+# a defect measuring 100x100 mm on a pipe wall 10 mm thick is a defect of the "GENE" class
 assert size_class(100, 100, 10) == FeatureClass.GENE
 
 # defects with zero dimensions are not allowed
