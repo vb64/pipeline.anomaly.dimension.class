@@ -6,7 +6,7 @@ This Python module implements the definition of the "defect dimension class" of 
 
 ![Graphical presentation of metal loss anomalies per dimension class](img/class_chart.PNG)
 
-## Installation pipeline_anomaly_dimension_class
+## Installation
 
 ```bash
 pip install pipeline-anomaly-dimension-class
@@ -22,7 +22,7 @@ assert size_class(100, 100, 10) == FeatureClass.GENE
 
 # defects with zero dimensions are not allowed
 size_class(0, 100, 10)
-oeg_feature_class.Error: Wrong FeatureClass params. l=0 w=100 t=10
+pipeline_anomaly_dimension_class.Error: Wrong FeatureClass params. l=0 w=100 t=10
 
 ```
 
@@ -30,7 +30,7 @@ oeg_feature_class.Error: Wrong FeatureClass params. l=0 w=100 t=10
 
 ```bash
 git clone git@github.com:vb64/pipeline.anomaly.dimension.class.git
-cd oeg.feature.class
+cd pipeline.anomaly.dimension.class
 ```
 
 With Python 2
